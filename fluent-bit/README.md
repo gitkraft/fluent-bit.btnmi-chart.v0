@@ -78,7 +78,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | ------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------- |
 | `image.registry`    | Fluent Bit image registry                                                                                  | `docker.io`          |
 | `image.repository`  | Fluent Bit image repository                                                                                | `bitnami/fluent-bit` |
-| `image.tag`         | Fluent Bit image tag (immutable tags are recommended)                                                      | `2.1.3-debian-11-r2` |
+| `image.tag`         | Fluent Bit image tag (immutable tags are recommended)                                                      | `2.1.5-debian-11-r0` |
 | `image.digest`      | Fluent Bit image digest in the way sha256:aa.... Please note this parameter, if set, will override the tag | `""`                 |
 | `image.pullPolicy`  | image pull policy                                                                                          | `IfNotPresent`       |
 | `image.pullSecrets` | Fluent Bit image pull secrets                                                                              | `[]`                 |
@@ -273,7 +273,7 @@ Find more information about how to deal with common errors related to Bitnami's 
 
 ## License
 
-Copyright &copy; 2023 Bitnami
+Copyright &copy; 2023 VMware, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
